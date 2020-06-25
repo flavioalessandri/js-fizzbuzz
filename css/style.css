@@ -1,0 +1,99 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/math2.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1{
+  background-color: rgba(61,64,91,.9);
+  text-align: center;
+  color:white;
+  font-size: 22px;
+  width: 100%;
+  padding:20px;
+  margin: 20px 0;
+}
+
+h2,h3{
+  text-align: center;
+  color:rgb(61,64,91);
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  padding-bottom:10px;
+}
+
+
+main > div > h2{
+  float: left;
+  font-weight: bold;
+  width: 10%;
+}
+
+
+
+p{
+  float: left;
+  width: 40%;
+  font-weight: bold;
+}
+
+img{
+  float: left;
+  width:400px;
+}
+
+.square-blue{
+  float: left;
+  width:100px;
+  height:100px;
+  background-color: blue;
+}
+
+/* contenitore con elementi float e inserimento del clearfix */
+
+
+#row01{
+  border:1px solid black;
+  width:100%;
+  background-color: lightgreen;
+}
+
+#row02{
+  border:1px solid black;
+  width:100%;
+  background-color: orange;
+}
+
+.clearfix::after{
+ content: "";
+ clear: both;
+ display: table;
+}
+
+/* SEPARATORE */
+.separatore{
+  width:100%;
+  background-color:yellow;
+  height: 40px;
+}
+
+
+.hidden::after{
+ color:red;
+}
+
+button{
+  background-color: rgb(61,64,91);
+  font-size: 17px;
+  padding:10px;
+  border-radius: 5px;
+  color:white;
+}
