@@ -12,7 +12,7 @@ body{
 h1{
   background-color: #028090;
   text-align: center;
-  color:white;
+  color:#FAF4EF;
   font-size: 22px;
   width: 100%;
   text-align: center;
@@ -34,6 +34,8 @@ h2,h3{
 }
 
 
+
+
 p{
   font-size: 16px;
   color:#353531;
@@ -48,14 +50,14 @@ p{
   width:100%;
 }
 .list{
+  border-radius: 10px;
   overflow-y: scroll;
   width:50%;
   height:400px;
   padding:80px;
   margin-top: 30px;
-  background-color:#f6f7eb;
+  background-color:#FAF4EF;
 }
-
 
 
 ol {
@@ -67,6 +69,25 @@ li{
   color:#353531;
   padding:10px;
   font-weight: bold;
-  border-bottom: 1px solid rgb(61,64,91);
+  border-bottom: double 2px  #028090;
+  border-radius: 2px;
   line-height: 20px;
+}
+
+i {
+  color: #028090;
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+.fa-user-graduate{
+  color: #DF3B57;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.fa-user-alt{
+  color: #17B2B5;
+  padding-right: 30px;
+  font-size: 40px;
 }
